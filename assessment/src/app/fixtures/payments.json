@@ -1,0 +1,14 @@
+{
+  "successfulPayment": {
+    "paymentMethod": "CreditCard",
+    "amount": 150,
+    "status": "Success",
+    "timestamp": "2024-01-01T00:00:00Z"
+  },
+  "failedPayment": {
+    "paymentMethod": "CreditCard",
+    "amount": 150,
+    "status": "Failed",
+    "timestamp": "2024-01-01T00:00:00Z"
+  }
+}

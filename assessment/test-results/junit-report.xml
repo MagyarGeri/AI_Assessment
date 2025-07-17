@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 138.0.0.0 (Windows 10)" package="" timestamp="2025-07-17T20:32:56" id="0" hostname="HUERDWN110495" tests="11" errors="0" failures="3" time="0.098">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/138.0.0.0 Safari/537.36"/>
+  </properties>
+  <testcase name="PaymentService should retrieve payment status by id" time="0.015" classname="PaymentService"/>
+  <testcase name="PaymentService should process a payment and return its details" time="0.003" classname="PaymentService"/>
+  <testcase name="Payment Service Integration Tests Error handling: Payment failure updates order status to Payment Failed" time="0.002" classname="Payment Service Integration Tests">
+    <failure type="">TypeError: Cannot read properties of null (reading 'handle')
+    at node_modules/@angular/common/fesm2015/http.mjs:1253:70
+    at doInnerSub (node_modules/rxjs/dist/esm/internal/operators/mergeInternals.js:19:18)
+    at outerNext (node_modules/rxjs/dist/esm/internal/operators/mergeInternals.js:14:1)
+    at OperatorSubscriber._next (node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js:13:1)
+    at OperatorSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:1)
+    at Observable._subscribe (node_modules/rxjs/dist/esm/internal/observable/innerFrom.js:51:24)
+    at Observable._trySubscribe (node_modules/rxjs/dist/esm/internal/Observable.js:37:1)
+    at node_modules/rxjs/dist/esm/internal/Observable.js:31:1
+    at errorContext (node_modules/rxjs/dist/esm/internal/util/errorContext.js:19:1)
+    at Observable.subscribe (node_modules/rxjs/dist/esm/internal/Observable.js:22:21)
+</failure>
+  </testcase>
+  <testcase name="Payment Service Integration Tests Data validation: Validate payment API response structure and consistency" time="0.002" classname="Payment Service Integration Tests">
+    <failure type="">TypeError: Cannot read properties of null (reading 'handle')
+    at node_modules/@angular/common/fesm2015/http.mjs:1253:70
+    at doInnerSub (node_modules/rxjs/dist/esm/internal/operators/mergeInternals.js:19:18)
+    at outerNext (node_modules/rxjs/dist/esm/internal/operators/mergeInternals.js:14:1)
+    at OperatorSubscriber._next (node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js:13:1)
+    at OperatorSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:1)
+    at Observable._subscribe (node_modules/rxjs/dist/esm/internal/observable/innerFrom.js:51:24)
+    at Observable._trySubscribe (node_modules/rxjs/dist/esm/internal/Observable.js:37:1)
+    at node_modules/rxjs/dist/esm/internal/Observable.js:31:1
+    at errorContext (node_modules/rxjs/dist/esm/internal/util/errorContext.js:19:1)
+    at Observable.subscribe (node_modules/rxjs/dist/esm/internal/Observable.js:22:21)
+</failure>
+  </testcase>
+  <testcase name="Payment Service Integration Tests Happy path: Payment success updates order status to Confirmed" time="0.002" classname="Payment Service Integration Tests">
+    <failure type="">TypeError: Cannot read properties of null (reading 'handle')
+    at node_modules/@angular/common/fesm2015/http.mjs:1253:70
+    at doInnerSub (node_modules/rxjs/dist/esm/internal/operators/mergeInternals.js:19:18)
+    at outerNext (node_modules/rxjs/dist/esm/internal/operators/mergeInternals.js:14:1)
+    at OperatorSubscriber._next (node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js:13:1)
+    at OperatorSubscriber.next (node_modules/rxjs/dist/esm/internal/Subscriber.js:31:1)
+    at Observable._subscribe (node_modules/rxjs/dist/esm/internal/observable/innerFrom.js:51:24)
+    at Observable._trySubscribe (node_modules/rxjs/dist/esm/internal/Observable.js:37:1)
+    at node_modules/rxjs/dist/esm/internal/Observable.js:31:1
+    at errorContext (node_modules/rxjs/dist/esm/internal/util/errorContext.js:19:1)
+    at Observable.subscribe (node_modules/rxjs/dist/esm/internal/Observable.js:22:21)
+</failure>
+  </testcase>
+  <testcase name="AppComponent should create the app" time="0.059" classname="AppComponent"/>
+  <testcase name="AppComponent should render title" time="0.007" classname="AppComponent"/>
+  <testcase name="AppComponent should have as title 'assessment'" time="0.004" classname="AppComponent"/>
+  <testcase name="OrderService should create an order and return it" time="0.002" classname="OrderService"/>
+  <testcase name="OrderService should get order by id" time="0.001" classname="OrderService"/>
+  <testcase name="OrderService should update order status" time="0.001" classname="OrderService"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

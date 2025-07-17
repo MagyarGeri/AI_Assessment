@@ -1,0 +1,16 @@
+{
+  "validOrder": {
+    "productId": "prod-123",
+    "quantity": 2,
+    "customerName": "Fixture User",
+    "address": "456 Fixture Street",
+    "timestamp": "2024-01-01T00:00:00Z"
+  },
+  "invalidOrder": {
+    "productId": "",
+    "quantity": -1,
+    "customerName": "",
+    "address": "",
+    "timestamp": "2024-01-01T00:00:00Z"
+  }
+}
